@@ -111,7 +111,7 @@ button:hover {
 }
 .hero-img {
   position: absolute;
-  background-image: url(/assets/images/image-hero.webp);
+  background-image: url(assets/images/image-hero.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -192,7 +192,7 @@ h2 {
 }
 .author-img {
   position: absolute;
-  background-image: url(/assets/images/image-founder.webp);
+  background-image: url(assets/images/image-founder.webp);
   background-size: contain;
   background-repeat: no-repeat;
   width: 13em;
@@ -205,28 +205,28 @@ h2 {
   right: 0;
   left: 0;
 }
-.info-box{
+.info-box {
   background-color: var(--top-bg-color);
   color: var(--text-color);
   padding: 1.778em;
   margin-top: 16.5em;
   margin-bottom: 5em;
 }
-h3{
+h3 {
   font-family: var(--heading-f-f);
   font-weight: var(--h3-weight);
   font-size: var(--h3-font-size);
   line-height: var(--h3-line-height);
   margin-bottom: 1em;
 }
-.info-box p{
+.info-box p {
   font-size: var(--par-font-size);
   font-weight: var(--par-weight);
   line-height: var(--par-line-height);
   margin-bottom: 2em;
 }
 
-.dark-logo{
+.dark-logo {
   background-image: url(assets/images/logo-dark.svg);
   background-size: cover;
   width: 5.985em;
@@ -234,18 +234,18 @@ h3{
   margin: auto;
   margin-bottom: 3em;
 }
-.social-container{
+.social-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 5em;
 }
-.social-link{
-  margin-inline: .875em;
+.social-link {
+  margin-inline: 0.875em;
 }
-.social-link svg{
+.social-link svg {
   fill: var(--svg-color);
 }
-.social-link svg:hover{
+.social-link svg:hover {
   fill: var(--svg-hover-color);
 }
