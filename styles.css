@@ -49,9 +49,8 @@ body {
   background-color: var(--bg-color);
   font-family: var(--text-f-f);
   text-align: center;
-  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
-
 }
 .container {
   display: flex;
@@ -118,7 +117,7 @@ button:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 22.5em;
+  width: 100%;
   height: 13em;
   z-index: 1;
   margin-left: auto;
@@ -251,6 +250,12 @@ h3 {
 }
 .social-link svg:hover {
   fill: var(--svg-hover-color);
+}
+@media (min-width:375px) {
+  .hero-img{
+    width: 22.5em;
+    height: 13em;
+  }
 }
 @media (min-width:768px) {
 
