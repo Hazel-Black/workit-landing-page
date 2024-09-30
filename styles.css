@@ -49,6 +49,9 @@ body {
   background-color: var(--bg-color);
   font-family: var(--text-f-f);
   text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+
 }
 .container {
   display: flex;
@@ -249,3 +252,92 @@ h3 {
 .social-link svg:hover {
   fill: var(--svg-hover-color);
 }
+@media (min-width:768px) {
+
+  .top-nav{
+    padding-inline: 2.444em;
+  }
+  h1{
+    padding-inline: 4em ;
+  }
+  .svg-container{
+    position: absolute;
+    width:100%;
+    overflow: hidden;
+  }
+.svg-1{
+  position: absolute;
+  background-image: url(assets/images/bg-pattern-1.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16.875em;
+  height: 13.444em;
+  margin-top: -2em;
+  left: -10em;
+  z-index: 2;
+ 
+}
+.svg-2{
+ position: relative;
+  overflow:hidden;
+  background-image: url(assets/images/bg-pattern-2.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 8.813em;
+  height: 7em;
+  margin-top: 7em;
+  z-index: 2;
+ right: -43em;
+ 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
