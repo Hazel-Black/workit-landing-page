@@ -194,12 +194,12 @@ h2 {
   position: absolute;
   background-image: url(assets/images/image-founder.webp);
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   width: 13em;
   height: 13em;
   z-index: -1;
-  bottom: -0;
-  top: 150%;
+  margin-top: 5em;
   margin-left: auto;
   margin-right: auto;
   right: 0;
