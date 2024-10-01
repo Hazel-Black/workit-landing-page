@@ -97,8 +97,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 250% 250px;
-  border-bottom-right-radius: 250% 250px;
+  border-bottom-left-radius: 350% 150px;
+  border-bottom-right-radius: 350% 150px;
   position: relative;
   overflow-x: hidden;
   min-width: 100%;
@@ -154,8 +154,8 @@ button:hover {
 .middle-container {
   padding-inline: 1.111em;
   background-color: var(--middle-bg-color);
-  border-bottom-left-radius: 250% 250px;
-  border-bottom-right-radius: 250% 250px;
+  border-bottom-left-radius: 350% 150px;
+  border-bottom-right-radius: 350% 150px;
   position: relative;
   overflow-x: hidden;
   min-width: 100%;
